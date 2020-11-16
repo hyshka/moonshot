@@ -1,0 +1,20 @@
+{
+  "name": "moonshot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hyshka/moonshot.git",
+  "author": "Bryan Hyshka <bryan@hyshka.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "@parcel/validator-typescript": "^2.0.0-nightly.447",
+    "parcel": "^2.0.0-beta.1",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "phaser": "^3.24.1"
+  }
+}
