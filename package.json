@@ -10,9 +10,7 @@
     "build": "parcel build ./src/index.html"
   },
   "devDependencies": {
-    "@parcel/validator-typescript": "^2.0.0-nightly.447",
-    "parcel": "^2.0.0-beta.1",
-    "typescript": "^4.0.5"
+    "parcel": "^2.0.0-beta.1"
   },
   "dependencies": {
     "phaser": "^3.24.1"
